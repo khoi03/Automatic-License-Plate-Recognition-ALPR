@@ -35,13 +35,14 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
 - Eventually, we rectify the license plate from the frame/image using perspective transformation and input it into the PaddleOCR to get the final license plate number. In this phase, we add the correct rules just for vietnamese license plate cases to increase the accuracy of the final license plate number, so you might want to change the correct rules for your cases or disable them.
   <table>
     <tr>
-        <td> <img src="./assets/truck.jpg" width="300px"></td>
-        <td> <img src="./assets/warped.jpg" width="300px"></td>
-        <td> 52LD-6042 </td>
+        <td style="vertical-align: middle;"> <img src="./assets/truck.jpg" width="300px"></td>
+        <td style="vertical-align: middle;"> <img src="./assets/warped.jpg" width="300px"></td>
+        <td style="vertical-align: middle;"> 52LD-6042 </td>
     </tr> 
     <tr>
-        <td> Input </td>
-        <td> Perspective transformation </td>
-        <td> PaddleOCR </td>
+        <td style="vertical-align: middle;"> Input </td>
+        <td style="vertical-align: middle;"> Perspective transformation </td>
+        <td style="vertical-align: middle;"> PaddleOCR </td>
     </tr>
   </table>
+
