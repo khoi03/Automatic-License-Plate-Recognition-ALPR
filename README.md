@@ -3,6 +3,7 @@
 <sub> 
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EYOb6wNegfWFNEKebrli7mneMyn9aVgY?usp=sharing)
 </sub>
+
 ## Introduction
 Our objective is the development of an Automatic License Plate Recognition (ALPR) system designed to identify various vehicles and their corresponding license plates. The system is intended to process input in the form of videos or images containing vehicles. The desired output entails the detection of vehicles and license plates, with the results prominently displayed on the respective video.
   
