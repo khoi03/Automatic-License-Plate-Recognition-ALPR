@@ -20,9 +20,9 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
   <table>
     <tr>
         <td> Example </td>
-        <td> <img src="./docs/sample/original/03009.jpg" width="300px"></td>
-        <td> <img src="./docs/sample/original/03016.jpg" width="300px"></td>
-        <td> <img src="./docs/sample/original/03025.jpg" width="300px"></td>
+        <td> <img src="./assets/chinese1.jpg" width="300px"></td>
+        <td> <img src="./assets/korean.jpg" width="300px"></td>
+        <td> <img src="./assets/truck.jpg" width="300px"></td>
     </tr> 
     <tr>
         <td> Confidence </td>
