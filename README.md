@@ -36,7 +36,7 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
   <table align="center">
     <tr>
         <td align="center"> <img src="./assets/truck.jpg" width="300px"></td>
-        <td align="center"> <img src="./assets/warped.jpg" width="300px"></td>
+        <td align="center"> <img src="./assets/warped.jpg" ></td>
         <td align="center"> 52LD-6042 </td>
     </tr> 
     <tr>
