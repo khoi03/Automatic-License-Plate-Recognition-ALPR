@@ -5,12 +5,21 @@
 
 ## Introduction
 Our objective is the development of an Automatic License Plate Recognition (ALPR) system designed to identify various vehicles and their corresponding license plates. The system is intended to process input in the form of videos or images containing vehicles. The desired output entails the detection of vehicles and license plates, with the results prominently displayed on the respective video.
+
+<table align="center">
+    <tr>
+        <td align="center"> <img src="./assets/baseline.png" width="300px"></td>
+    </tr> 
+    <tr>
+        <td align="center"> Pipeline </td>
+    </tr>
+  </table>
   
 ## Table of contents:
 
 1. [Approach](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#1approach)
 
-2. [Overview results](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#2overview)
+2. [Overview results](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#2overviewresults)
      
 
 ## 1. Approach
@@ -32,7 +41,7 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
     </tr>
   </table>
   
-- Eventually, we rectify the license plate from the frame/image using perspective transformation and input it into the PaddleOCR to get the final license plate number. In this phase, we add the correct rules just for vietnamese license plate cases to increase the accuracy of the final license plate number, so you might want to change the correct rules for your cases or disable them.
+- Eventually, we rectify the license plate from the frame/image using perspective transformation and input it into the PaddleOCR to get the final license plate number. In this phase, we add the **correct rules** just for **vietnamese license plate cases** to increase the accuracy of the final license plate number, so you might want to change the correct rules for your cases or disable them.
   <table align="center">
     <tr>
         <td align="center"> <img src="./assets/truck.jpg" width="300px"></td>
