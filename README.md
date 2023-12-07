@@ -26,9 +26,9 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
     </tr> 
     <tr>
         <td> Confidence </td>
-        <td> 0.9841 </td>
-        <td> 0.9945 </td>
-        <td> 0.9979 </td>
+        <td> 0.9897 </td>
+        <td> 0.9994 </td>
+        <td> 0.9729 </td>
     </tr>
   </table>
   
