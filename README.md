@@ -19,7 +19,7 @@ You will gain an overarching perspective through the following pipeline:
   
 ## Table of contents:
 
-1. [Approach](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#1approach)
+1. [Approach](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#1-approach)
 
 2. [Overview results](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#2overviewresults)
      
@@ -57,4 +57,4 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
     </tr>
 </table>
 
-
+## 2. Overview results
