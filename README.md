@@ -1,7 +1,7 @@
 # Automatic-License-Plate-Recognition-ALPR
 
 <sub> 
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EYOb6wNegfWFNEKebrli7mneMyn9aVgY?usp=sharing)
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AoRRd-6oXtFEfx9Ff85GNuTcwSssb5zz?usp=sharing)
 </sub>
 
 ## Introduction
