@@ -8,7 +8,7 @@ Our objective is the development of an Automatic License Plate Recognition (ALPR
 
 <table align="center">
     <tr>
-        <td align="center"> <img src="./assets/baseline.png" width="300px"></td>
+        <td align="center"> <img src="./assets/baseline.png"></td>
     </tr> 
     <tr>
         <td align="center"> Pipeline </td>
