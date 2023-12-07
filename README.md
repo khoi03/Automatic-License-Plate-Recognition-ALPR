@@ -4,14 +4,15 @@
 </sub>
 
 ## Introduction
-Our objective is the development of an Automatic License Plate Recognition (ALPR) system designed to identify various vehicles and their corresponding license plates. The system is intended to process input in the form of videos or images containing vehicles. The desired output entails the detection of vehicles and license plates, with the results prominently displayed on the respective video. You will gain an overarching perspective through the following pipeline:
+Our objective is the development of an Automatic License Plate Recognition (ALPR) system designed to identify various vehicles and their corresponding license plates. The system is intended to process input in the form of videos or images containing vehicles. The desired output entails the detection of vehicles and license plates, with the results prominently displayed on the respective video. 
+You will gain an overarching perspective through the following pipeline:
 
 <table align="center">
     <tr>
         <td align="center"> <img src="./assets/baseline.png"></td>
     </tr> 
     <tr>
-        <td align="center"> **Pipeline** </td>
+        <td align="center"> Pipeline </td>
     </tr>
   </table>
   
