@@ -17,18 +17,18 @@ Our objective is the development of an Automatic License Plate Recognition (ALPR
 In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object Detection Network, WPOD-NET for short(you can find their paper [here](https://openaccess.thecvf.com/content_ECCV_2018/papers/Sergio_Silva_License_Plate_Detection_ECCV_2018_paper.pdf) and the implementaion in Torch [here](https://github.com/Pandede/WPODNet-Pytorch)) and PaddleOCR model.
 - Firstly, we commence by detecting all vehicles in the frame/image
 - Next step is to identify the license plate of each vehicle. WPOD-NET excels in its ability to recognize license plates from diverse countries and license plates of different vehicles with high confidence scores.
-  <table>
+  <table align="center">
     <tr>
-        <td> Example </td>
-        <td> <img src="./assets/chinese1.jpg" width="300px"></td>
-        <td> <img src="./assets/korean.jpg" width="300px"></td>
-        <td> <img src="./assets/truck.jpg" width="300px"></td>
+        <td align="center"> Example </td>
+        <td align="center"> <img src="./assets/chinese1.jpg" width="300px"></td>
+        <td align="center"> <img src="./assets/korean.jpg" width="300px"></td>
+        <td align="center"> <img src="./assets/truck.jpg" width="300px"></td>
     </tr> 
     <tr>
-        <td> Confidence </td>
-        <td> 0.9897 </td>
-        <td> 0.9994 </td>
-        <td> 0.9729 </td>
+        <td align="center"> Confidence </td>
+        <td align="center"> 0.9897 </td>
+        <td align="center"> 0.9994 </td>
+        <td align="center"> 0.9729 </td>
     </tr>
   </table>
   
@@ -40,7 +40,7 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
         <td align="center"> 52LD-6042 </td>
     </tr> 
     <tr>
-        <td align="center"> Input </td>
+        <td align="center"> Input Image </td>
         <td align="center"> Perspective transformation </td>
         <td align="center"> PaddleOCR </td>
     </tr>
