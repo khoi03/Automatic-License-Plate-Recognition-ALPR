@@ -25,7 +25,7 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
         <td align="center"> <img src="./assets/truck.jpg" width="300px"></td>
     </tr> 
     <tr>
-        <td align="center"> Confidence </td>
+        <td align="center"> Confidence score </td>
         <td align="center"> 0.9897 </td>
         <td align="center"> 0.9994 </td>
         <td align="center"> 0.9729 </td>
