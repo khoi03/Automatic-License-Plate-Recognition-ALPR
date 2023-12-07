@@ -27,7 +27,7 @@ You will gain an overarching perspective through the following pipeline:
 ## 1. Approach
 In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object Detection Network, WPOD-NET for short(you can find their paper [here](https://openaccess.thecvf.com/content_ECCV_2018/papers/Sergio_Silva_License_Plate_Detection_ECCV_2018_paper.pdf) and the implementaion in Torch [here](https://github.com/Pandede/WPODNet-Pytorch)) and PaddleOCR model.
 - Firstly, we commence by detecting all vehicles in the frame/image
-- Next step is to identify the license plate of each vehicle. WPOD-NET excels in its ability to recognize license plates from diverse countries and license plates of different vehicles with high confidence scores.
+- Next step is to identify the license plate of each vehicle. WPOD-NET excels in its ability to recognize license plates from **diverse countries** and **diverse types of vehicles** with high confidence scores.
   <table align="center">
     <tr>
         <td align="center"> Example </td>
