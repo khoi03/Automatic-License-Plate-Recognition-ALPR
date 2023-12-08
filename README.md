@@ -27,7 +27,7 @@ You will gain an overarching perspective through the following pipeline:
 ## 1. Approach
 In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object Detection Network, WPOD-NET for short(you can find their paper [here](https://openaccess.thecvf.com/content_ECCV_2018/papers/Sergio_Silva_License_Plate_Detection_ECCV_2018_paper.pdf) and the implementaion in Torch [here](https://github.com/Pandede/WPODNet-Pytorch)) and PaddleOCR model.
 - Firstly, we commence by detecting all vehicles in the frame/image
-- Next step is to identify the license plate of each vehicle. WPOD-NET excels in its ability to recognize license plates from **diverse countries** and **diverse types of vehicles** with high confidence scores.
+- Next step is to identify the license plate of each vehicle. WPOD-NET exhibits the ability to recognize license plates from **diverse countries** and **diverse types of vehicles** with high confidence scores.
   <table align="center">
     <tr>
         <td align="center"> Example </td>
@@ -58,3 +58,10 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
 </table>
 
 ## 2. Overview results
+![output](./assets/example_output.mp4)
+
+## Conclusion
+While our system effectively detects vehicles and accurately recognizes license plates, it is noteworthy that the PaddleOCR component encounters challenges in extracting text from images, primarily influenced by variations in camera setup and environmental conditions. Consequently, it is advisable to consider the incorporation of a Deep Neural Network (DNN) model to enhance image resolution before feeding it into the PaddleOCR model. This approach aims to improve the accuracy of extracting license plate numbers.
+
+Furthermore, in instances where the license plate image is visually clear and legible, the PaddleOCR may still encounter difficulties in extracting the license plate number. This phenomenon is illustrated in the following example:
+<img src="./assets/failed_case.png">
