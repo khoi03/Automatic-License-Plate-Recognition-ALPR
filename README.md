@@ -58,7 +58,8 @@ In this task, I incorporate the use of the YOLOv8 model, Warped Planar Object De
 </table>
 
 ## 2. Overview results
-![output](./assets/example_output.mp4)
+
+https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR/assets/80579165/d673a3bd-d0f7-4aa8-98c9-20060bec74b3
 
 ## Conclusion
 While our system effectively detects vehicles and accurately recognizes license plates, it is noteworthy that the PaddleOCR component encounters challenges in extracting text from images, primarily influenced by variations in camera setup and environmental conditions. Consequently, it is advisable to consider the incorporation of a Deep Neural Network (DNN) model to enhance image resolution before feeding it into the PaddleOCR model. This approach aims to improve the accuracy of extracting license plate numbers.
