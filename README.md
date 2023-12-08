@@ -66,4 +66,4 @@ While our system effectively detects vehicles and accurately recognizes license 
 
 Furthermore, in instances where the license plate image is visually clear and legible, the PaddleOCR may still encounter difficulties in extracting the license plate number. This phenomenon is illustrated in the following example:
 
-<img src="./assets/failed_case.png">
+![failedcase](./assets/failed_case.png)
