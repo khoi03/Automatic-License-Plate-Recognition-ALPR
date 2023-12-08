@@ -15,7 +15,7 @@ You will gain an overarching perspective through the following pipeline:
     <tr>
         <td align="center"> Pipeline </td>
     </tr>
-  </table>
+</table>
   
 ## Table of contents:
 
@@ -66,4 +66,9 @@ While our system effectively detects vehicles and accurately recognizes license 
 
 Furthermore, in instances where the license plate image is visually clear and legible, the PaddleOCR may still encounter difficulties in extracting the license plate number. This phenomenon is illustrated in the following example:
 
-![failedcase](./assets/failed_case.png)
+<table align="center">
+    <tr>
+        <td align="center"> <img src="./assets/failed_case.png"></td>
+    </tr> 
+</table>
+<!-- ![failedcase](./assets/failed_case.png) -->
