@@ -21,7 +21,7 @@ You will gain an overarching perspective through the following pipeline:
 
 1. [Approach](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#1-approach)
 
-2. [Overview results](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#2overviewresults)
+2. [Overview results](https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR#2-overview-results)
      
 
 ## 1. Approach
