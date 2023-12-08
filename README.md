@@ -65,4 +65,5 @@ https://github.com/khoi03/Automatic-License-Plate-Recognition-ALPR/assets/805791
 While our system effectively detects vehicles and accurately recognizes license plates, it is noteworthy that the PaddleOCR component encounters challenges in extracting text from images, primarily influenced by variations in camera setup and environmental conditions. Consequently, it is advisable to consider the incorporation of a Deep Neural Network (DNN) model to enhance image resolution before feeding it into the PaddleOCR model. This approach aims to improve the accuracy of extracting license plate numbers.
 
 Furthermore, in instances where the license plate image is visually clear and legible, the PaddleOCR may still encounter difficulties in extracting the license plate number. This phenomenon is illustrated in the following example:
+
 <img src="./assets/failed_case.png">
